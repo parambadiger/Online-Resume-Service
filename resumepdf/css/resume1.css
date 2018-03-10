@@ -1,0 +1,19 @@
+thead{
+    background-color: #555;
+    color: white;
+}
+table{
+    border: 1px solid #333;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+header{
+    text-align: center;
+}
+h3, p, ul{
+    margin: 0;
+}
+td, th{
+    padding-left: 16px;
+}

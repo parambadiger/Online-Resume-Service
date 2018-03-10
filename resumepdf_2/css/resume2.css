@@ -1,0 +1,49 @@
+body{
+    border: 2px solid #F0F0F0;
+    font-size: 14px;
+}
+header{
+    text-align: center;
+}
+h3{
+    font-size: 16px;
+    padding-left: 8px;
+}
+h4, p{
+    font-size: 14px;
+    margin-left: 30px;
+}
+p{
+    text-indent: 2rem;
+}
+section{
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+h3{
+    background-color: #F0F0F0;
+}
+#part1{
+    position: absolute;
+    left: 0;
+    width: 35%;
+    background-color: #F0F0F0;
+}
+#part1 > div{
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px;
+}
+#part2{
+    left: 35%;
+    position: absolute;
+}
+table{
+    margin: 8px 8px 10px 16px;
+    width: 100%;
+}
+table, td{
+    border: 2px solid #F0F0F0;
+    border-collapse: collapse;
+}

@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $("#myBtn1").click(function(){
+        $("#demo1").modal();
+    });
+	$("#myBtn2").click(function(){
+        $("#demo2").modal();
+    });
+    $("#myBtn3").click(function(){
+        $("#demo3").modal();
+    });
+
+    $("#myBtn_1").click(function(){
+        $("#demo_1").modal();
+    });
+	$("#myBtn_2").click(function(){
+        $("#demo_2").modal();
+    });
+    $("#myBtn_3").click(function(){
+        $("#demo_3").modal();
+    });
+});

@@ -1,0 +1,71 @@
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+h1{
+    font-size: 50px;
+    font-family: Algerian;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+
+#particles-js{
+    background-image: url('../img/image1.jpg');
+}
+#welcome{
+	transform: translateY(-150vh);
+    transition: all 2s linear;
+    margin-bottom: 5rem;
+}
+#welcome2{
+	transform: translateY(-150vh);
+	transition: all 1s linear;
+}
+#welcome.active, #welcome2.active{
+	transform: translateY(0);
+}
+
+#splitbtn, #splitbtn1{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+#splitbtn a:nth-child(1), #splitbtn1 a:nth-child(1){
+    transform: translateY(-5.5rem) translateX(12rem) scale(0);
+    transition: all .5s linear;
+}
+#splitbtn a:nth-child(2), #splitbtn1 a:nth-child(2){
+    transform: translateY(-5.5rem) translateX(-12rem) scale(0);
+    transition: all .5s linear;
+}
+#splitbtn a.active, #splitbtn1 a.active{
+    transform: translateY(0) translateX(0) scale(1);
+}
+@media screen and (max-width: 768px){
+    .buttons{
+        grid-template-columns: 1fr;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
